@@ -13,6 +13,7 @@ StockPrice.recent_files
 StockPrice.DatabaseExplorer
 StockPrice.MUF
 StockPrice.WebPublishHistory
+StockPrice.Default.History
 
 # Uncomment if using a Filesystem Library (A5Lib)
 #StockPrice.ALM
@@ -38,11 +39,11 @@ componentTypeCache
 lastSelectedProfile
 
 #Folders under the web project folder and any subfolders under these folders
-__backup.backup                        #contains component backups
-__deleted.deleted                      #contains deleted files
-__undo.undo                            #contains undo history
-__iispublishhistory.iispublishhistory  #contains IIS publish history
-__staging.staging                      #staging folder for publishing
+StockPrice*/*WebProject/__backup.backup
+StockPrice*/*WebProject/__deleted.deleted
+StockPrice*/*WebProject/__undo.undo
+StockPrice*/*WebProject/__iispublishhistory.iispublishhistory
+StockPrice*/*WebProject/__staging.staging
 
 
 #The following files and folders are also found in a Web Project folder.
@@ -55,6 +56,7 @@ __staging.staging                      #staging folder for publishing
 *._a5wcmp_metadata
 *._a5wcmp_compiled
 
+
 #These are usually the same for multiple users, but may be unique.
 #Uncomment to exclude from source control
 
@@ -66,3 +68,4 @@ __staging.staging                      #staging folder for publishing
 
 #Uncomment to exclude PhoneGap project files from source control
 #PhoneGapProjects                       #contains PhoneGap project files
+*.backup
