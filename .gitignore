@@ -69,3 +69,6 @@ StockPrice*/*WebProject/__staging.staging
 #Uncomment to exclude PhoneGap project files from source control
 #PhoneGapProjects                       #contains PhoneGap project files
 *.backup
+StockPrice.WebProjects/Default.WebProject/project.settings
+StockPrice.WebProjects/Default.WebProject/Project.SecuritySettings
+StockPrice.Default.history
