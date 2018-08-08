@@ -1,5 +1,8 @@
 # StockApplication
-Selwyn Stock App Demo
+Stock API Application Demo
+
+## About This Project
+This project demonstrates how to populate the Stock chart in Alpha Anywhere using data pulled from a Stock API. The original Stock Price application demo used the Yahoo! Stock API, which is no longer available. 
 
 # How to Download and Install this Project
 1. Click the Clone or download button and select the Download Zip option to download the sample application.
